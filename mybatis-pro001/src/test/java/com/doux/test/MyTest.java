@@ -35,5 +35,7 @@ public class MyTest {
         System.out.println("hello git");
         System.out.println("hello git");
         System.out.println("merge");
+        System.out.println("master test");
+
     }
 }
