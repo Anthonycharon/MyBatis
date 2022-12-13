@@ -30,6 +30,7 @@ public class MyTest {
 
 
     public void testBubbleSort() {
+        System.out.println("push test");
         System.out.println("hello git");
         System.out.println("hello git");
         System.out.println("hello git");
