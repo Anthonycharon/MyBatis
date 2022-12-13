@@ -31,5 +31,8 @@ public class MyTest {
 
     public void testBubbleSort() {
         System.out.println("hello git");
+        System.out.println("hello git");
+        System.out.println("hello git");
+        System.out.println("hello git");
     }
 }
