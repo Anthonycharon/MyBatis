@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.doux">
+    <insert id="insertCar">
+        insert into t_car
+            (id, car_num, brand, guide_price, produce_time, car_type)
+        values (null, '1005', '特斯拉', 80.00, '2009-12-05', '电动车')
+    </insert>
+
+    <select id="selectCar">
+        select *
+        from t_car
+        where id = 1
+    </select>
+
+    <update id="updateCar">
+        update t_car
+        set brand = '保时捷'
+        where id = 1
+    </update>
+</mapper>
