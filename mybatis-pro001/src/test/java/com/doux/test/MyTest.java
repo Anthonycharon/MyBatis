@@ -38,5 +38,6 @@ public class MyTest {
         System.out.println("merge");
         System.out.println("master test");
         System.out.println("hot-fix test");
+        System.out.println("pull test");
     }
 }
