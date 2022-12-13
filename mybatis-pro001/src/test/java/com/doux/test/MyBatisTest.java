@@ -36,7 +36,7 @@ public class MyBatisTest {
     }
     @Test
     public void testSelect(){
-
+        System.out.println("third commit");
 
     }
 }
